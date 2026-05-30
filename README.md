@@ -1,4 +1,3 @@
-
 Face Detection using OpenCV
 
 This is a simple Python project that detects human faces using OpenCV and Haar Cascade classifier.
@@ -11,15 +10,26 @@ Requirements:
 - Python 3
 - OpenCV
 
+
 How to run:
-python3 face_detection.py
+1. Open terminal
+2. Go to project folder
+   cd your-folder-name
+3. Run the program
+   python3 face_detection.py
 
 Controls:
-Press 'q' to quit the webcam window
+- Press 'q' to quit the webcam window
+
+How it works:
+- Webcam captures video
+- Converts frames to grayscale
+- Detects faces using Haar Cascade
+- Draws rectangle around faces
 
 Output:
-- Webcam opens and shows rectangles around detected faces
+- Webcam window opens with face detection boxes
 
 Note:
-- Uses Haar Cascade (haarcascade_frontalface_default.xml)
+- Uses Haar Cascade (haarcascade_frontalface.xml)
 - Works best in good lighting conditions
